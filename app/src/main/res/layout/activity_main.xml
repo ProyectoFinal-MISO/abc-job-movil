@@ -7,20 +7,89 @@
     android:background="@drawable/background"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Login"
+    <ImageView
+        android:id="@+id/logoCorbata"
+        android:layout_width="105dp"
+        android:layout_height="192dp"
+        android:layout_marginBottom="380dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/corbata" />
+
+    <ImageView
+        android:id="@+id/logoText"
+        android:layout_width="208dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="448dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.61"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/titulo" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jura_bold"
+        android:text="Proyecto de grado"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.602"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.547"
-        android:backgroundTint="@color/dark_grey"
-        android:textColor="@color/black"/>
+        app:layout_constraintVertical_bias="0.428" />
 
+    <Button
+        android:id="@+id/login"
+        android:layout_width="218dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/dark_grey"
+        android:fontFamily="@font/jura_bold"
+        android:text="Login"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.601" />
+
+    <Button
+        android:id="@+id/signIn"
+        android:layout_width="216dp"
+        android:layout_height="56dp"
+        android:backgroundTint="@color/sapote"
+        android:fontFamily="@font/jura_bold"
+        android:text="Sign In"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.677" />
+
+    <Button
+        android:id="@+id/config"
+        android:layout_width="215dp"
+        android:layout_height="53dp"
+        android:backgroundTint="@color/grey"
+        android:fontFamily="@font/jura_bold"
+        android:text="Config"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.751" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

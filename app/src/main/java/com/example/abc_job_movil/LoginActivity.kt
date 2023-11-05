@@ -19,6 +19,12 @@ class LoginActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val login: Button = findViewById(R.id.login)
+        back.setOnClickListener{
+            val intent = Intent(this, HomeActivity::class.java)
+            startActivity(intent)
+        }
+
         var email: EditText = findViewById(R.id.email)
         var password: EditText = findViewById(R.id.password)
 

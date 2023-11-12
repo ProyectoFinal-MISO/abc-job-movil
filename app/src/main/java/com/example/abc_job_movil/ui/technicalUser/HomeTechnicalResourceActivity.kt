@@ -1,4 +1,4 @@
-package com.example.abc_job_movil.ui
+package com.example.abc_job_movil.ui.technicalUser
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

@@ -7,6 +7,7 @@ import android.widget.Button
 import android.widget.ImageView
 import com.example.abc_job_movil.R
 import com.example.abc_job_movil.ui.MainActivity
+import com.example.abc_job_movil.ui.RegisterHomeActivity
 
 class RegisterTechnicalActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,7 +16,7 @@ class RegisterTechnicalActivity : AppCompatActivity() {
 
         val back: ImageView = findViewById(R.id.backSignIn)
         back.setOnClickListener{
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, RegisterHomeActivity::class.java)
             startActivity(intent)
         }
 

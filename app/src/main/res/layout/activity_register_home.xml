@@ -7,20 +7,47 @@
     android:background="@drawable/background"
     tools:context=".ui.RegisterHomeActivity">
 
+    <CheckBox
+        android:id="@+id/technicalSelectSign"
+        android:layout_width="195dp"
+        android:layout_height="40dp"
+        android:fontFamily="@font/jura_bold"
+        android:text="Technical Resource"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.074"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.67" />
+
+    <CheckBox
+        android:id="@+id/abcSelectSign"
+        android:layout_width="194dp"
+        android:layout_height="41dp"
+        android:fontFamily="@font/jura_bold"
+        android:text="ABC Employee"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.99"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.669" />
+
     <TextView
         android:id="@+id/titulo2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="776dp"
         android:fontFamily="@font/jura_bold"
         android:text="Proyecto de grado"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintHorizontal_bias="0.55"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logoText"
-        app:layout_constraintVertical_bias="0.011" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.131" />
 
     <TextView
         android:id="@+id/registerLikeTitle"
@@ -32,40 +59,10 @@
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.596"
+        app:layout_constraintHorizontal_bias="0.583"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.197" />
-
-    <TextView
-        android:id="@+id/registerLikeTitle2"
-        android:layout_width="162dp"
-        android:layout_height="34dp"
-        android:fontFamily="@font/jura_bold"
-        android:text="Technical Resource"
-        android:textColor="@color/white"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.556" />
-
-    <TextView
-        android:id="@+id/registerLikeTitle3"
-        android:layout_width="162dp"
-        android:layout_height="34dp"
-        android:fontFamily="@font/jura_bold"
-        android:text="ABC Employee"
-        android:textColor="@color/white"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.614"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.868" />
+        app:layout_constraintVertical_bias="0.263" />
 
     <ImageView
         android:id="@+id/logoCorbata3"
@@ -83,15 +80,16 @@
         android:id="@+id/logoText2"
         android:layout_width="170dp"
         android:layout_height="53dp"
-        android:layout_marginBottom="796dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintHorizontal_bias="0.568"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.069"
         app:srcCompat="@drawable/titulo" />
 
     <ImageView
-        android:id="@+id/backRegisterHome"
+        android:id="@+id/backToMain"
         android:layout_width="55dp"
         android:layout_height="57dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -104,49 +102,52 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="219dp"
-        android:layout_height="186dp"
+        android:layout_width="161dp"
+        android:layout_height="173dp"
         android:scrollbarSize="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.394"
+        app:layout_constraintVertical_bias="0.487"
         app:srcCompat="@drawable/input_bg" />
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="219dp"
-        android:layout_height="186dp"
+        android:layout_width="164dp"
+        android:layout_height="177dp"
         android:scrollbarSize="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.775"
+        app:layout_constraintVertical_bias="0.484"
         app:srcCompat="@drawable/input_bg" />
 
     <ImageView
         android:id="@+id/abcEmployeeImage"
-        android:layout_width="173dp"
-        android:layout_height="158dp"
+        android:layout_width="161dp"
+        android:layout_height="177dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.86"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.765"
+        app:layout_constraintVertical_bias="0.483"
         app:srcCompat="@drawable/freelance" />
 
     <ImageView
         android:id="@+id/technicalResourceImage"
-        android:layout_width="179dp"
-        android:layout_height="168dp"
+        android:layout_width="161dp"
+        android:layout_height="177dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintHorizontal_bias="0.126"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.394"
+        app:layout_constraintVertical_bias="0.491"
         app:srcCompat="@drawable/working" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,7 +11,6 @@
         android:id="@+id/saveLanguage"
         android:layout_width="229dp"
         android:layout_height="62dp"
-        android:layout_marginBottom="124dp"
         android:backgroundTint="@color/grey"
         android:fontFamily="@font/jura_bold"
         android:text="Save"
@@ -20,11 +19,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ABCUser"
-        app:layout_constraintVertical_bias="0.965" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.882" />
 
     <CheckBox
-        android:id="@+id/ABCUser2"
+        android:id="@+id/rememberLanguage"
         android:layout_width="215dp"
         android:layout_height="41dp"
         android:fontFamily="@font/jura_bold"
@@ -40,22 +39,20 @@
         android:id="@+id/titulo3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="700dp"
         android:fontFamily="@font/jura_bold"
         android:text="Proyecto de grado"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.715"
+        app:layout_constraintHorizontal_bias="0.723"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logoText"
-        app:layout_constraintVertical_bias="0.011" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.159" />
 
     <TextView
         android:id="@+id/titulo4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="616dp"
         android:fontFamily="@font/jura_bold"
         android:text="Select the language of the application"
         android:textColor="@color/white"
@@ -63,8 +60,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logoText"
-        app:layout_constraintVertical_bias="0.011" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.271" />
 
     <ImageView
         android:id="@+id/logoCorbata4"
@@ -94,11 +91,12 @@
         android:id="@+id/logoText3"
         android:layout_width="200dp"
         android:layout_height="63dp"
-        android:layout_marginBottom="712dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.781"
+        app:layout_constraintHorizontal_bias="0.805"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.115"
         app:srcCompat="@drawable/titulo" />
 
     <ImageView
@@ -107,9 +105,10 @@
         android:layout_height="426dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.312"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.503"
-        app:srcCompat="@drawable/worldMap" />
+        app:layout_constraintVertical_bias="0.498"
+        app:srcCompat="@drawable/world" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

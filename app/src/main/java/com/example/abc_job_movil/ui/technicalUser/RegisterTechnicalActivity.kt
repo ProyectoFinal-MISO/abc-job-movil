@@ -8,6 +8,7 @@ import android.widget.ImageView
 import com.example.abc_job_movil.R
 import com.example.abc_job_movil.ui.MainActivity
 import com.example.abc_job_movil.ui.RegisterHomeActivity
+import com.example.abc_job_movil.ui.abcUser.RegisterABCActivity
 
 class RegisterTechnicalActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,7 +23,7 @@ class RegisterTechnicalActivity : AppCompatActivity() {
 
         val signIn: Button = findViewById(R.id.continueSignIn)
         signIn.setOnClickListener{
-            val intent = Intent(this, HomeTechnicalResourceActivity::class.java)
+            val intent = Intent(this, RegisterTechnicalDataActivity::class.java)
             startActivity(intent)
         }
 

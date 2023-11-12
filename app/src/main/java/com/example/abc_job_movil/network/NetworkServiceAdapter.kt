@@ -14,8 +14,7 @@ class NetworkServiceAdapter constructor(context: Context) {
     val instance: RequestQueue = Volley.newRequestQueue(context.applicationContext)
 
     companion object{
-        //const val BASE_URL = "https://34.117.27.162/"
-        private const val BASE_URL = "http//localhost:5000/"
+        const val BASE_URL = "https://34.117.27.162/"
         fun getRequest(path:String, responseListener: Response.Listener<String>, errorListener: Response.ErrorListener): StringRequest {
             return StringRequest(Request.Method.GET, BASE_URL+path, responseListener,errorListener)
         }

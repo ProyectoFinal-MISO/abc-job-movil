@@ -67,8 +67,15 @@ class LoginActivity : AppCompatActivity() {
                 Response.ErrorListener { response ->
                     showLogin.text = "${response.toString()}"
                 }))
-            val intent = Intent(this, HomeTechnicalResourceActivity::class.java)
-            startActivity(intent)
+
+            if (checkBoxTypeABC.isChecked) {
+                val intent = Intent(this, HomeABCUserActivity::class.java)
+                startActivity(intent)
+            } else if (checkBoxTechnical.isChecked) {
+                val intent = Intent(this, HomeTechnicalResourceActivity::class.java)
+                startActivity(intent)
+            }
+
 
         }
 

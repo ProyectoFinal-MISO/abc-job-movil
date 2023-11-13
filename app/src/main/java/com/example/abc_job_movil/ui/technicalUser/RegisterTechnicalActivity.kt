@@ -21,11 +21,12 @@ class RegisterTechnicalActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val signIn: Button = findViewById(R.id.continueSignIn)
-        signIn.setOnClickListener{
-            val intent = Intent(this, RegisterTechnicalDataActivity::class.java)
+        val continueToSkills: Button = findViewById(R.id.continueSignIn)
+        continueToSkills.setOnClickListener{
+            val intent = Intent(this, RegisterTechnicalSkillsActivity::class.java)
             startActivity(intent)
         }
+
 
     }
 }

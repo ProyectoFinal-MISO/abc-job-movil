@@ -213,7 +213,7 @@
         app:layout_constraintVertical_bias="0.027" />
 
     <ImageView
-        android:id="@+id/backSignIn2"
+        android:id="@+id/backSignInABC"
         android:layout_width="55dp"
         android:layout_height="57dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -243,6 +243,7 @@
         android:background="@drawable/input_bg"
         android:ems="10"
         android:inputType="text"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.922"
@@ -257,6 +258,7 @@
         android:background="@drawable/input_bg"
         android:ems="10"
         android:inputType="text"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.915"
@@ -337,6 +339,7 @@
         android:background="@drawable/input_bg"
         android:ems="10"
         android:inputType="textPassword"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.896"
@@ -351,6 +354,7 @@
         android:background="@drawable/input_bg"
         android:ems="10"
         android:inputType="textPassword"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.896"
@@ -365,6 +369,7 @@
         android:background="@drawable/input_bg"
         android:ems="10"
         android:inputType="textEmailAddress"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.891"
@@ -379,6 +384,7 @@
         android:background="@drawable/input_bg"
         android:ems="10"
         android:inputType="number"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.881"
@@ -393,6 +399,7 @@
         android:background="@drawable/input_bg"
         android:ems="10"
         android:inputType="phone"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.877"
@@ -449,6 +456,7 @@
         android:background="@drawable/input_bg"
         android:ems="10"
         android:inputType="phone"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.882"
@@ -460,8 +468,12 @@
         android:id="@+id/imageView10"
         android:layout_width="114dp"
         android:layout_height="113dp"
-        app:srcCompat="@drawable/background_black"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="166dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.204"
+        app:srcCompat="@drawable/background_black" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

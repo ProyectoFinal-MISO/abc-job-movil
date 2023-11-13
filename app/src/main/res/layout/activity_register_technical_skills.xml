@@ -33,7 +33,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.537"
-        app:srcCompat="@drawable/addButton" />
+        app:srcCompat="@drawable/add" />
 
     <TextView
         android:id="@+id/languages_data_text"
@@ -73,7 +73,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.124"
-        app:srcCompat="@drawable/addButton" />
+        app:srcCompat="@drawable/add" />
 
     <TextView
         android:id="@+id/signInText4"
@@ -126,7 +126,7 @@
         app:srcCompat="@drawable/corbata" />
 
     <ImageView
-        android:id="@+id/backSignIn4"
+        android:id="@+id/backPersonalData"
         android:layout_width="55dp"
         android:layout_height="57dp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -1,4 +1,4 @@
-package com.example.abc_job_movil.ui.abcUser
+package com.example.abc_job_movil.ui.technicalUser
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -7,21 +7,20 @@ import android.widget.Button
 import android.widget.ImageView
 import com.example.abc_job_movil.R
 import com.example.abc_job_movil.ui.LoginActivity
-import com.example.abc_job_movil.ui.RegisterHomeActivity
 
-class RegisterABCActivity : AppCompatActivity() {
+class RegisterTechnicalAcademicDataActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_register_abcactivity)
+        setContentView(R.layout.activity_register_technical_academic_data)
 
-        val back: ImageView = findViewById(R.id.backSignInABC)
+        val back: ImageView = findViewById(R.id.backSkills2)
         back.setOnClickListener{
-            val intent = Intent(this, RegisterHomeActivity::class.java)
+            val intent = Intent(this, RegisterTechnicalSkillsActivity::class.java)
             startActivity(intent)
         }
 
-        val saveABCData: Button = findViewById(R.id.SaveSignInABC)
-        saveABCData.setOnClickListener{
+        val saveTechnicalData: Button = findViewById(R.id.saveSignInTechnical2)
+        saveTechnicalData.setOnClickListener{
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }

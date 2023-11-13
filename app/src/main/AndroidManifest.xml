@@ -16,6 +16,12 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".ui.technicalUser.RegisterTechnicalAcademicDataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.technicalUser.RegisterTechnicalSkillsActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.ConfigurationLanguageActivity"
             android:exported="false" />
         <activity

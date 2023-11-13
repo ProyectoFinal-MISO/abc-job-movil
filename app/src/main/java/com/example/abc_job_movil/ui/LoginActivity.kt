@@ -60,11 +60,22 @@ class LoginActivity : AppCompatActivity() {
                 "password" to password.text.toString(),
                 "userType" to userType
             )
+
             networkAdapter.instance.add(NetworkServiceAdapter.postRequest(
                 "users/auth",
                 JSONObject(postParams),
                 Response.Listener<JSONObject>{response ->
+                    showLogin.text = "${response.get("id")} + ${response.get("token")} "
+                },
+                Response.ErrorListener { response ->
                     showLogin.text = "${response.toString()}"
+                }))
+
+            networkAdapter.instance.add(NetworkServiceAdapter.postRequest(
+                "users/auth",
+                JSONObject(postParams),
+                Response.Listener<JSONObject>{response ->
+                    showLogin.text = "${response.get("id")} + ${response.get("token")} "
                 },
                 Response.ErrorListener { response ->
                     showLogin.text = "${response.toString()}"
